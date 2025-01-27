@@ -14,11 +14,14 @@ const useForm = (initialState = {}) => {
     const resetForm = () => {
         setFormData(initialState);
     };
-
+    const setForm = (formData)=>{
+        setFormData(formData)
+    }
     return {
         formData,
         handleChange,
         resetForm,
+        setForm,
     };
 };
 

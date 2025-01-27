@@ -6,12 +6,15 @@ import Counter from '../Counter/Counter.jsx';
 import Login from '../../screens/Login.jsx';
 
 import { Routes, Route } from "react-router";
+import LandingPage from '../../screens/LandingPage.jsx';
 
 const Router = () => {
     return (
         <Routes>
-            <Route index element={<Home />} />
+            
+            
             <Route path="login" element={<Login />} />
+            <Route index element={<LandingPage />} />
             <Route path="products" element={<Products />} />
             <Route path="think" element={<Think />} />
             <Route path="about" element={<About />} />
