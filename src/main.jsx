@@ -12,7 +12,7 @@ import App from './App.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <Provider store={store}>
-          <BrowserRouter basename="/desarrollo-frontend-react-2025/">
+          <BrowserRouter basename="/proyectoM7/">
             <App />
           </BrowserRouter>
       </Provider>
